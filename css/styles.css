@@ -49,6 +49,10 @@ img{
 display: block;
 }
 
+button{
+  border: none;
+}
+
 .container {
 width: 1200px;
 
@@ -722,12 +726,10 @@ line-height: 1.87;
 
 
 .clouse-botton{
+  position: absolute;
   border-radius: 4px;
   width: 10px;
   height: 10px;
-
-  background:  #FFFFFF;
-  border:  #FFFFFF;
 }
 
 .clouse-botton .svg-close-black{
