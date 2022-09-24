@@ -701,6 +701,7 @@ line-height: 1.87;
 
 .is-hidden{
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 
