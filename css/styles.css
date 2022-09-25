@@ -320,6 +320,7 @@ text-align: center;
 }
 
 .overlay-work{
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -334,8 +335,10 @@ text-align: center;
   width: 370px;
   height: 70px;
   position: absolute;
+
+  display: flex;
   align-items: center;
-  padding-top: 27px;
+  justify-content: center;
 }
 
 
@@ -697,6 +700,9 @@ line-height: 1.87;
   height: 100%;
 
   background: rgba(0, 0, 0, 0.2);
+  transition: transform 250ms ease;
+  transition-timing-function: var(--timing-function--);
+
 }
 
 .backdrop:hover::before{
@@ -722,6 +728,11 @@ line-height: 1.87;
   0px 1px 1px rgba(0, 0, 0, 0.14), 
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+
+  transition-property: transform;
+  
+  transition: transform 250ms ease;
+  transition-timing-function: var(--timing-function--);
 }
 
 
@@ -730,6 +741,7 @@ line-height: 1.87;
   border-radius: 4px;
   width: 10px;
   height: 10px;
+  cursor: pointer;
 }
 
 .clouse-botton .svg-close-black{
